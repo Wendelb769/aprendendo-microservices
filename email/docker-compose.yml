@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+
+  mysql:
+
+    image: mysql:8.0
+    container_name: ms-email-db
+    environment:
+      MYSQL_DATABASE: ms_email_ms
+      MYSQL_USER: mysql
+      MYSQL_PASSWORD: mysql
+    ports:
+      - "3308:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
