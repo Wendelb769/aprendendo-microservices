@@ -7,6 +7,7 @@ services:
     image: mysql:8.0
     container_name: ms-email-db
     environment:
+      MYSQL_ROOT_PASSWORD: email
       MYSQL_DATABASE: ms_email_ms
       MYSQL_USER: mysql
       MYSQL_PASSWORD: mysql
