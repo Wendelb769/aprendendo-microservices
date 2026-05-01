@@ -7,6 +7,7 @@ services:
     image: mysql:8.0
     container_name: ms-user-db
     environment:
+      MYSQL_ROOT_PASSWORD: user
       MYSQL_DATABASE: ms_user_ms
       MYSQL_USER: mysql
       MYSQL_PASSWORD: mysql
