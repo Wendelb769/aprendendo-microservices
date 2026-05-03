@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="01afd533-3ecb-47db-94c9-b8b418d102f4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/email/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
       <recent name="C:\Users\wendel\Documents\user-mail-sender-ms\email\src\main\java\com\example\email" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.email.mysql: Compose Deployment">
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,14 +138,6 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="user: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="user/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="user.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -161,7 +154,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Docker.email.mysql: Compose Deployment" />
-        <item itemvalue="Docker.user: Compose Deployment" />
         <item itemvalue="Docker.user.mysql: Compose Deployment" />
       </list>
     </recent_temporary>
