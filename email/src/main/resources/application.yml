@@ -3,9 +3,9 @@ spring:
     name: email
 
   datasource:
-    url: jdbc:mysql://localhost:5433/ms-email-ms
+    url: jdbc:mysql://localhost:3308/ms_email_ms
     username: root
-    password: root
+    password: email
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
