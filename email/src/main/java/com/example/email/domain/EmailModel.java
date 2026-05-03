@@ -1,5 +1,6 @@
 package com.example.email.domain;
 
+import com.example.email.enums.EmailStatus;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -23,4 +24,5 @@ public class EmailModel {
     @Column(columnDefinition = "BODY")
     private String emailBody;
     private LocalDateTime emailSentDate;
+    private EmailStatus statusEmail;
 }
