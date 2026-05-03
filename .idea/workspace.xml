@@ -19,6 +19,7 @@
         <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Record" />
       </list>
     </option>
   </component>
